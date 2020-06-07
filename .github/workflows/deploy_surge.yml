@@ -28,6 +28,6 @@ jobs:
     - name: Istall Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge./ botcampnewapp.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge./ botcampnewapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
              
