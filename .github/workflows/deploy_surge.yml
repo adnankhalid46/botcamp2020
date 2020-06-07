@@ -25,9 +25,9 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
-    - name: Istall Surge
+    - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge./ botcampnewapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge./ botcampnewap.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
              
